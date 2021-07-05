@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 240px;
+    height: 90px;
+    /* margin: 100px  50px  10px 30px; */
+}
+
+.dropdown{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    border: 1px solid red;
+}
+
+.container1{
+  /* margin-right: 30px; */
+  /* padding-right: 30px; */
+  margin: 100px  50px  10px 30px;
+}
